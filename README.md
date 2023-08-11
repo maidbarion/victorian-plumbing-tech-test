@@ -1,46 +1,30 @@
-# Getting Started with Create React App
+<!-- NOTES ON THE PROJECT -->
+## Notes On The Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hello! Thanks for taking the time to look at this, it's a little basic, but I crossed off a few of those objectives. I was running a bit short on time (recently moved back to the UK), so i'll list off a bunch of improvements I'd make if I had more time.
 
-## Available Scripts
+* Implementing Context API - there was a little bit too much prop drilling for my liking. Redux seems a bit overkill for something this small.
+* More indepth error handling on API calls, including UI elements.
+* Major styling updates, it's as basic as it comes right now.
+* The ITEMS_PER_PAGE const seems a bit out of place, ideally I'd tweak the calculation to handle 'size' from pagination api data.
+* Styled components probably wasn't necessary, probably could have utilised a single .css file.
+* Remove API key from env file - shouldn't be store FE at all.
 
-In the project directory, you can run:
+<!-- Installation -->
+## Installation
+yarn install - dependencies: axios, styled-components, typescript (all latest)
+Node v18.17.0
 
-### `yarn start`
+You'll need to add a .env file in root...
+REACT_APP_PUBLIC_API_URL=https://spanishinquisition.victorianplumbing.co.uk
+REACT_APP_API_KEY=###
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+I don't feel comfortable publishing your API key, but it's in the link you sent me. Also, I probably wouldn't store it in an env file, however this is a Frontend solution and some form of encription seemed overkill.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<!-- END -->
+## END
+Thanks for your time all, and if I don't hear back from you, all the best with the search.
 
-### `yarn test`
+Cheers,
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Aaron.

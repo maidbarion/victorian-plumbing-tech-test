@@ -16,10 +16,8 @@ yarn install - dependencies: axios, styled-components, typescript (all latest)
 Node v18.17.0
 
 You'll need to add a .env file in root...
-REACT_APP_PUBLIC_API_URL=https://spanishinquisition.victorianplumbing.co.uk
+REACT_APP_PUBLIC_API_URL=###
 REACT_APP_API_KEY=###
-
-I don't feel comfortable publishing your API key, but it's in the link you sent me. Also, I probably wouldn't store it in an env file, however this is a Frontend solution and some form of encription seemed overkill.
 
 <!-- END -->
 ## END

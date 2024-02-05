@@ -15,8 +15,8 @@ Hello! Thanks for taking the time to look at this, it's a little basic, but I cr
 yarn install - dependencies: axios, styled-components, typescript (all latest)
 Node v18.17.0
 
-You'll need to add a .env file in root...
-REACT_APP_PUBLIC_API_URL=###
+You'll need to add a .env file in root...\
+REACT_APP_PUBLIC_API_URL=###\
 REACT_APP_API_KEY=###
 
 <!-- END -->
